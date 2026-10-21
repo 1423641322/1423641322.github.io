@@ -28,7 +28,8 @@
 | 想修改的内容 | 对应文件 |
 | --- | --- |
 | 姓名、个人介绍、教育背景、GPA、英语成绩、联系方式、导航 | `index.html` |
-| 核心课程、科研经历、项目描述、技能、奖项 | `resume-data.js` |
+| 中文核心课程、科研经历、项目描述、技能、奖项 | `resume-data.js` |
+| 英文简历内容、中英文界面文字 | `i18n.js` |
 | 色彩、字号、布局、手机适配 | `styles.css` |
 | 主题切换、项目展开、打印逻辑、内容加载 | `script.js` |
 | 可下载的原始简历 | `resume.docx`，用新版文件替换，保留此名称 |
@@ -37,7 +38,7 @@
 
 ```powershell
 git status
-git add index.html styles.css script.js resume-data.js favicon.svg resume.docx .nojekyll README.md
+git add index.html styles.css script.js resume-data.js i18n.js favicon.svg resume.docx .nojekyll README.md
 git commit -m "Update personal homepage"
 git push
 ```
@@ -50,6 +51,7 @@ git push
 - 教育背景、课程、科研经历、两个项目、专业技能、奖项和联系方式。
 - 研究过程与结果可以展开查看；“后续规划”与已完成结果分开呈现。
 - 深浅主题可切换，本地浏览器会记住选择。
+- 顶部右侧可切换中文 / English，浏览器会记住语言选择。英文模式下的简历下载文件仍为原始中文版 DOCX。
 - 原始简历下载，以及打印 / 保存 PDF。打印时自动展开项目详情。
 - 不依赖在线字体、数据库、API 或后端服务器。
 

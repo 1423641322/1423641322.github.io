@@ -5,47 +5,48 @@
 <meta name="description" content="聂荣添的个人主页。哈尔滨工业大学生物信息学本科在读，研究兴趣包括机器学习辅助材料设计、纳米酶与水凝胶治疗体系。">
 <meta name="theme-color" content="#f2efe9"><title>聂荣添｜个人主页</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
-<script src="resume-data.js" defer></script><script src="script.js" defer></script>
+<script src="resume-data.js" defer></script><script src="i18n.js" defer></script><script src="script.js" defer></script>
 </head>
 <body>
-<a class="skip-link" href="#about">跳转到正文</a>
+<a class="skip-link" href="#about" data-i18n="skip">跳转到正文</a>
 <header class="site-header">
-<a class="brand" href="#top" aria-label="返回顶部">NRT<span>.</span></a>
-<nav class="nav" aria-label="主导航"><a href="#about">教育</a><a href="#experience">科研</a><a href="#work">项目</a><a href="#skills">技能</a><a href="#contact">联系</a></nav>
-<button class="theme-toggle" type="button" aria-label="切换深色模式" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v2m0 14v2M3 12h2m14 0h2M5.64 5.64l1.42 1.42m9.88 9.88 1.42 1.42m0-12.72-1.42 1.42M7.06 16.94l-1.42 1.42M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/></svg></button>
+<a class="brand" href="#top" aria-label="返回顶部" data-i18n-aria="backTop">nie-rongtian<span aria-hidden="true">.</span></a>
+<nav class="nav" aria-label="主导航" data-i18n-aria="mainNav"><a href="#about" data-i18n="navEducation">教育</a><a href="#experience" data-i18n="navResearch">科研</a><a href="#work" data-i18n="navProjects">项目</a><a href="#skills" data-i18n="navSkills">技能</a><a href="#contact" data-i18n="navContact">联系</a></nav>
+<div class="header-actions"><div class="language-switch" role="group" aria-label="Language / 语言"><button type="button" data-language="zh" lang="zh-CN" aria-pressed="true" aria-label="切换到中文">中文</button><button type="button" data-language="en" lang="en" aria-pressed="false" aria-label="Switch to English">EN</button></div>
+<button class="theme-toggle" type="button" aria-label="切换深色模式" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v2m0 14v2M3 12h2m14 0h2M5.64 5.64l1.42 1.42m9.88 9.88 1.42 1.42m0-12.72-1.42 1.42M7.06 16.94l-1.42 1.42M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/></svg></button></div>
 </header>
 <main id="top">
 <section class="hero" aria-labelledby="hero-title">
 <div class="hero-copy reveal">
-<p class="eyebrow"><span></span> 哈尔滨工业大学 · 生物信息学</p>
-<h1 id="hero-title">你好，我是<br><em>聂荣添</em><i>。</i></h1>
-<p class="hero-role">生物信息学本科生 / 本科生科研助理</p>
-<p class="hero-intro">关注机器学习与生物材料的交叉研究，参与纳米酶性能预测、材料制备与水凝胶治疗体系的实验探索。</p>
-<div class="hero-actions"><a class="button primary" href="#work">查看科研项目 <span aria-hidden="true">↘</span></a><a class="text-button" href="resume.docx" download="聂荣添-简历.docx">下载简历 DOCX ↓</a></div>
+<p class="eyebrow"><span></span><span class="eyebrow-copy" data-i18n="affiliation">哈尔滨工业大学 · 生物信息学</span></p>
+<h1 id="hero-title"><span data-i18n="hello">你好，我是</span><br><em data-i18n="name">聂荣添</em><i data-i18n="namePunctuation">。</i></h1>
+<p class="hero-role" data-i18n="heroRole">生物信息学本科生 / 本科生科研助理</p>
+<p class="hero-intro" data-i18n="heroIntro">关注机器学习与生物材料的交叉研究，参与纳米酶性能预测、材料制备与水凝胶治疗体系的实验探索。</p>
+<div class="hero-actions"><a class="button primary" href="#work"><span data-i18n="viewProjects">查看科研项目</span> <span aria-hidden="true">↘</span></a><a class="text-button" href="resume.docx" download="聂荣添-简历.docx" data-i18n="downloadDocx">下载简历 DOCX ↓</a></div>
 <a class="hero-github" href="https://github.com/1423641322" target="_blank" rel="noopener noreferrer">GITHUB / 1423641322 ↗</a>
 </div>
-<div class="hero-visual reveal" aria-label="研究方向装饰图：机器学习、纳米酶与水凝胶">
-<div class="portrait-card"><span class="portrait-initials">NRT</span><p>BIOINFORMATICS<br>MACHINE LEARNING × BIOMATERIALS</p><span class="orbit orbit-a"></span><span class="orbit orbit-b"></span><span class="atom atom-a"></span><span class="atom atom-b"></span></div>
+<div class="hero-visual reveal" aria-label="研究方向装饰图：机器学习、纳米酶与水凝胶" data-i18n-aria="heroArt">
+<div class="portrait-card"><span class="portrait-initials">nie-rongtian</span><p>BIOINFORMATICS<br>MACHINE LEARNING × BIOMATERIALS</p><span class="orbit orbit-a"></span><span class="orbit orbit-b"></span><span class="atom atom-a"></span><span class="atom atom-b"></span></div>
 <div class="availability">UNDERGRADUATE RESEARCH</div><span class="hero-number">2024—2028</span>
 </div>
 <div class="scroll-note">SCROLL TO EXPLORE <span>↓</span></div>
 </section>
 <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>BIOINFORMATICS</span><b>✦</b><span>MACHINE LEARNING</span><b>✦</b><span>NANOZYMES & HYDROGELS</span><b>✦</b><span>BIOINFORMATICS</span><b>✦</b><span>MACHINE LEARNING</span><b>✦</b><span>NANOZYMES & HYDROGELS</span><b>✦</b></div></div>
 <section class="about section" id="about">
-<div class="section-label reveal"><span>01</span> 教育背景</div>
-<div class="about-grid"><div class="reveal"><p class="kicker">2024.09 — 2028.06</p><h2>哈尔滨工业大学</h2><p class="education-major">生物信息学 · 本科在读</p></div><div class="about-body reveal"><p>在生物信息学的学习基础上，结合 Python 建模与生物材料实验，探索“数据—模型—实验”的研究路径。</p><p>英语水平：CET-4、CET-6 均已通过；雅思 6.5，各单项高于 6.0。</p><div class="facts"><div><strong>3.3967</strong><span>GPA</span></div><div><strong>4 / 11</strong><span>专业排名</span></div><div><strong>6.5</strong><span>雅思成绩</span></div></div></div></div>
-<div class="course-block reveal"><h3>核心课程</h3><div id="course-list" class="course-list"></div></div>
+<div class="section-label reveal"><span>01</span> <span class="label-copy" data-i18n="educationHeading">教育背景</span></div>
+<div class="about-grid"><div class="reveal"><p class="kicker">2024.09 — 2028.06</p><h2 data-i18n="university">哈尔滨工业大学</h2><p class="education-major" data-i18n="major">生物信息学 · 本科在读</p></div><div class="about-body reveal"><p data-i18n="aboutIntro">在生物信息学的学习基础上，结合 Python 建模与生物材料实验，探索“数据—模型—实验”的研究路径。</p><p data-i18n="languages">英语水平：CET-4、CET-6 均已通过；雅思 6.5，各单项高于 6.0。</p><div class="facts"><div><strong>3.3967</strong><span>GPA</span></div><div><strong>4 / 11</strong><span data-i18n="rank">专业排名</span></div><div><strong>6.5</strong><span data-i18n="ielts">雅思成绩</span></div></div></div></div>
+<div class="course-block reveal"><h3 data-i18n="coursesHeading">核心课程</h3><div id="course-list" class="course-list"></div></div>
 </section>
-<section class="experience section" id="experience"><div class="section-label reveal"><span>02</span> 科研经历</div>
-<div class="research-heading reveal"><p>2024.09 — 至今</p><h2>哈尔滨工业大学<br>刘绍琴课题组</h2><span>本科生科研助理</span></div><div id="research-list" class="research-list"></div>
+<section class="experience section" id="experience"><div class="section-label reveal"><span>02</span> <span class="label-copy" data-i18n="researchHeading">科研经历</span></div>
+<div class="research-heading reveal"><p data-i18n="researchDate">2024.09 — 至今</p><h2><span data-i18n="university">哈尔滨工业大学</span><br><span data-i18n="researchGroup">刘绍琴课题组</span></h2><span data-i18n="researchRole">本科生科研助理</span></div><div id="research-list" class="research-list"></div>
 </section>
-<section class="work section" id="work"><div class="section-heading reveal"><div class="section-label"><span>03</span> 竞赛与项目</div><p>SELECTED RESEARCH<br>2025—2026</p></div><div id="project-list" class="project-list"></div></section>
-<section class="skills section" id="skills"><div class="section-label reveal"><span>04</span> 专业技能</div><div id="skills-list" class="skills-grid"></div></section>
-<section class="awards section" id="awards"><div class="section-label reveal"><span>05</span> 荣誉奖项</div><div id="awards-list" class="award-list"></div></section>
-<section class="contact section" id="contact"><p class="eyebrow reveal"><span></span> GET IN TOUCH</p><h2 class="reveal">欢迎交流<br><em>研究与想法。</em></h2>
-<a class="email reveal" href="mailto:1423641322@outlook.com">1423641322@outlook.com <span>↗</span></a>
-<div class="contact-bottom reveal"><a href="tel:+8618800492025">电话：18800492025</a><div><a href="https://github.com/1423641322" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="resume.docx" download="聂荣添-简历.docx">下载简历 ↓</a><button class="print-button" type="button">打印 / 保存 PDF</button></div></div></section>
+<section class="work section" id="work"><div class="section-heading reveal"><div class="section-label"><span>03</span> <span class="label-copy" data-i18n="projectsHeading">竞赛与项目</span></div><p>SELECTED RESEARCH<br>2025—2026</p></div><div id="project-list" class="project-list"></div></section>
+<section class="skills section" id="skills"><div class="section-label reveal"><span>04</span> <span class="label-copy" data-i18n="skillsHeading">专业技能</span></div><div id="skills-list" class="skills-grid"></div></section>
+<section class="awards section" id="awards"><div class="section-label reveal"><span>05</span> <span class="label-copy" data-i18n="awardsHeading">荣誉奖项</span></div><div id="awards-list" class="award-list"></div></section>
+<section class="contact section" id="contact"><p class="eyebrow reveal"><span></span> GET IN TOUCH</p><h2 class="reveal"><span data-i18n="contactHello">欢迎交流</span><br><em data-i18n="contactIdeas">研究与想法。</em></h2>
+<a class="email reveal" href="mailto:qq1423641322@outlook.com">qq1423641322@outlook.com <span>↗</span></a>
+<div class="contact-bottom reveal"><a href="tel:+8618800492025" data-i18n="phone">电话：18800492025</a><div><a href="https://github.com/1423641322" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="resume.docx" download="聂荣添-简历.docx" data-i18n="download">下载简历 ↓</a><button class="print-button" type="button" data-i18n="print">打印 / 保存 PDF</button></div></div></section>
 </main>
-<footer><p>© 2026 聂荣添</p><p>BIOINFORMATICS & BIOMATERIALS</p><a href="#top">回到顶部 ↑</a></footer>
+<footer><p>© 2026 <span data-i18n="name">聂荣添</span></p><p>BIOINFORMATICS & BIOMATERIALS</p><a href="#top" data-i18n="backTopLink">回到顶部 ↑</a></footer>
 <noscript><style>.reveal{opacity:1;transform:none}</style><p class="noscript-note">请启用 JavaScript 查看完整课程、科研项目与技能，或<a href="resume.docx">下载原始简历</a>。</p></noscript>
 </body></html>
